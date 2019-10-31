@@ -1,7 +1,5 @@
 # storyChatBot
-Implements a chatbot which suggests a possible continuation to the user's story based on the entered input. The chatbot is implemented in
-Javascript and tries to guess the context based on the keywords present in the user's input. Below is a screenshot of the interactive
-story-writer system which incorporated the chatbot to help users with their stories.
+Implements a chatbot which suggests a possible continuation to the user's story based on the user's input. The chatbot looks for pre-defined keywords in the user's input and updates some state variables based on the keywords that it finds. The chatbot then identifies the best possible contuation to the story based on the values of these variables as well as some pre-defined rules. Below is a screenshot of the interactive story-writer system which incorporated the chatbot to help users with their stories.
 
 ![interactive-storyWriter](interactive-storyWriter.png)
 
@@ -35,5 +33,5 @@ story-writer system which incorporated the chatbot to help users with their stor
 *Me*: Pikachu is lightning quick and takes a shot!  
 *Chatbot*: Did you see that shot?, Spongebob exclaimed!  
 
-The chatbot tries to understand the context of the story by looking for certain pre-defined keywords in the user's input, and seems to do an alright job in the example above.  
+The chatbot tries to understand the context of the story by looking for certain pre-defined keywords in the user's input, and seems to do an alright job in the example above. 
 
