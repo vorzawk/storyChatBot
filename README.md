@@ -34,5 +34,5 @@ Implements a chatbot which suggests a possible continuation to the user's story 
 *User*: Pikachu is lightning quick and takes a shot!  
 *Nami*: Did you see that shot?, Spongebob exclaimed!  
 
-#### The chatbot tries to understand the context of the story by looking for certain pre-defined keywords in the user's input, and seems to do an alright job in the example above. 
+#### The chatbot tries to understand the context of the story by looking for certain pre-defined keywords in the user's input. For example, here the chatbot realizes that there are enough characters to start a basketball game and modifies its suggestions accordingly.
 
